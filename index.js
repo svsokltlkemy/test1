@@ -25,7 +25,7 @@ const clovaSkillHandler = clova.Client
         speech = {
           lang: 'ja',
           type: 'PlainText',
-          value: `ご挨拶ありがとうございますimprove。${TEMPLATE_INQUIRY}`
+          value: `ご挨拶して頂きありがとうございます。${TEMPLATE_INQUIRY}`
         }
         responseHelper.setSimpleSpeech(speech)
         responseHelper.setSimpleSpeech(speech, true)
